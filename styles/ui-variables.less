@@ -30,11 +30,11 @@
 
 @background-color-highlight: lighten(@base-background-color, 5%);
 @background-color-selected:  lighten(@base-background-color, 10%);
-@app-background-color:       darken(@base-background-color, 5%);
+@app-background-color:       darken(@base-background-color, 4%);
 
 // Base colors
 @base-background-color: hsl(206, 44%, 15%);
-@base-border-color:     lighten(@base-background-color, 8%);
+@base-border-color:     @base-background-color;
 
 // Component colors
 @pane-item-background-color: @base-background-color;

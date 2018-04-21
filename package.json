@@ -11,7 +11,8 @@
     "darktheme",
     "gentle dark",
     "gentledark",
-    "gentle dark ui"
+    "gentle dark ui",
+    "gentle-dark-ui"
   ],
   "repository": "https://github.com/gentlelionstudios/gentle-dark-ui-atom",
   "license": "MIT",
