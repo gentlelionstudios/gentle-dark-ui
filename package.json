@@ -13,7 +13,7 @@
     "gentledark",
     "gentle dark ui"
   ],
-  "repository": "https://github.com/gentlelionstudios/gentle-dark-ui",
+  "repository": "https://github.com/gentlelionstudios/gentle-dark-ui-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
