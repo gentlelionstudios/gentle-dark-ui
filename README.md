@@ -8,4 +8,4 @@ The Gentle Dark UI Theme is a pleasing, dark theme for the Atom IDE.  This theme
 
 Built for fun by Gentle Lion Studios <br/>
 [gentlelionstudios.com](https://www.gentlelionstudios.com) <br/>
-[twitter.com/glstudios](https://twitter.com/glstudios) <br/>
+[twitter.com/glionstudios](https://twitter.com/glionstudios) <br/>
