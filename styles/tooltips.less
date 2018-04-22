@@ -7,6 +7,8 @@
 
 .tooltip {
   .tooltip-inner {
+    background-color: @background-color-selected;
+    border-radius: 3px;
     line-height: 1;
     padding: .75em;
     white-space: nowrap;
@@ -19,5 +21,11 @@
     border-radius: max(2px, @component-border-radius / 2);
     color: @text-color-selected;
     background: @background-color-selected;
+  }
+
+  &.bottom {
+    .tooltip-arrow {
+      border-bottom-color: @background-color-selected;
+    }
   }
 }
