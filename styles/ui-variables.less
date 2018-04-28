@@ -12,25 +12,25 @@
 
 
 // Text Colors
-@text-color:           hsl(197,  8%, 66%);
-@text-color-subtle:    hsl(204,  4%, 47%);
-@text-color-highlight: hsl(40,   3%, 81%);
-@text-color-selected:  hsl(120, 20%, 99%);
+@text-color:           hsl(197, 8%, 65%);
+@text-color-subtle:    darken(@text-color, 35%, relative);
+@text-color-highlight: lighten(@text-color, 30%, relative);
+@text-color-selected:  lighten(@text-color, 40%, relative);
 
-@text-color-info:    hsl(212, 31%, 48%);
-@text-color-success: hsl(172, 50%, 34%);
-@text-color-warning: hsl(23,  55%, 57%);
-@text-color-error:   hsl(356, 42%, 60%);
+@text-color-info:    hsl(212, 31%, 47%);
+@text-color-success: hsl(172, 50%, 47%);
+@text-color-warning: hsl(23,  50%, 47%);
+@text-color-error:   hsl(356, 42%, 47%);
 
 // Background colors
-@background-color-info:    hsl(208, 100%, 50%);
-@background-color-success: hsl(160,  70%, 36%);
-@background-color-warning: hsl(32,   60%, 50%);
-@background-color-error:   hsl(0,    70%, 50%);
+@background-color-info:    darken(@text-color-info, 17%, relative);
+@background-color-success: darken(@text-color-success, 17%, relative);
+@background-color-warning: darken(@text-color-warning, 17%, relative);
+@background-color-error:   darken(@text-color-error, 17%, relative);
 
-@background-color-highlight: lighten(@base-background-color, 5%);
-@background-color-selected:  lighten(@base-background-color, 10%);
-@app-background-color:       darken(@base-background-color, 5%);
+@background-color-highlight: lighten(@base-background-color, 35%, relative);
+@background-color-selected:  lighten(@base-background-color, 70%, relative);
+@app-background-color:       darken(@base-background-color, 25%, relative);
 
 // Base colors
 @base-background-color: hsl(206, 44%, 15%);
@@ -46,24 +46,24 @@
 @tool-panel-background-color: @base-background-color;
 @tool-panel-border-color:     @base-border-color;
 
-@inset-panel-background-color: lighten(@base-background-color, 4%);
+@inset-panel-background-color: @background-color-highlight;
 @inset-panel-border-color:     @base-border-color;
 
-@panel-heading-background-color: lighten(@base-background-color, 4%);
+@panel-heading-background-color: @background-color-highlight;
 @panel-heading-border-color:     @base-border-color;
 
-@overlay-background-color: lighten(@base-background-color, 5%);
+@overlay-background-color: @background-color-highlight;
 @overlay-border-color:     @base-border-color;
 
-@button-background-color:          lighten(@base-background-color, 10%);
-@button-background-color-hover:    lighten(@button-background-color, 12%);
+@button-background-color:          @background-color-selected;
+@button-background-color-hover:    lighten(@button-background-color, 25%, relative);
 @button-background-color-selected: @button-background-color-hover;
 @button-border-color:              @base-border-color;
 
 @tab-bar-background-color:    @base-background-color;
 @tab-bar-border-color:        @base-border-color;
 @tab-background-color:        @tab-bar-background-color;
-@tab-background-color-active: lighten(@tab-bar-background-color, 10%);
+@tab-background-color-active: @background-color-selected;
 @tab-border-color:            @base-border-color;
 
 @tree-view-background-color: @base-background-color;
@@ -71,10 +71,10 @@
 
 // Site colors
 @ui-site-color-1: @text-color-info;
-@ui-site-color-2: @text-color-success; // green
-@ui-site-color-3: @background-color-warning; // orange
-@ui-site-color-4: #D831B0;             // pink
-@ui-site-color-5: #EBDD5B;             // yellow
+@ui-site-color-2: @text-color-success;
+@ui-site-color-3: @text-color-warning;
+@ui-site-color-4: hsl(314, 40%, 47%);
+@ui-site-color-5: hsl(54,  70%, 47%);
 
 // Sizes
 @font-size: 12px;
