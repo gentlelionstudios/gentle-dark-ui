@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Original work Copyright (c) 2015 Atom Community
+Original work Copyright (c) 2015 Atom Community<br>
 Modified work Copyright 2018 Gentle Lion Studios
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
