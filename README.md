@@ -1,6 +1,6 @@
 # Gentle Dark UI Theme
 
-<img src="https://github.com/gentlelionstudios/gentle-dark-ui-atom/raw/master/images/gentle-dark-ui-theme.png" width="840" alt="Image of the Gentle Dark UI Theme">
+<img src="images/gentle-dark-ui-theme.png" width="900" alt="Image of the Gentle Dark UI Theme">
 
 The Gentle Dark UI Theme is a pleasing, dark theme for the Atom IDE.  It pairs well with the [Gentle Dark Syntax Theme](https://atom.io/themes/gentle-dark-syntax).
 
