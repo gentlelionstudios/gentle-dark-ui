@@ -14,8 +14,13 @@
     height: @tab-height;
     line-height: @tab-height;
     font-size: @font-size;
-    background-color: @tab-background-color;
+    background-color: @tab-background-color-inactive;
     text-align: center;
+    margin-right: 2px;
+
+    &:last-child {
+      margin-right: 0;
+    }
 
     &[data-type="SettingsView"] {
       .title.icon::before {
