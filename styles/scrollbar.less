@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+  background-color: @app-background-color;
+
+  &-thumb {
+    background-color: @background-color-highlight;
+    border: 2px solid @app-background-color;
+    border-radius: 20px;
+
+    &:hover {
+      background-color: darken(@background-color-highlight, 15%, relative);
+    }
+  }
+
+  &-corner {
+    background-color: @app-background-color;
+  }
+}

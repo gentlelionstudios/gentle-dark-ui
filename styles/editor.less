@@ -9,7 +9,7 @@ atom-text-editor[mini] {
   background-color: @input-background-color;
 
   &.is-focused {
-    background-color: darken(@input-background-color, 5%);
+    background-color: darken(@input-background-color, 5%, relative);
   }
 
   .placeholder-text {
@@ -18,19 +18,5 @@ atom-text-editor[mini] {
 
   .selection .region {
     background-color: @background-color-selected;
-  }
-}
-
-::-webkit-scrollbar {
-  background-color: @app-background-color;
-
-  &-thumb {
-    background-color: @background-color-highlight;
-    border: 2px solid @app-background-color;
-    border-radius: 5px;
-  }
-
-  &-corner {
-    background-color: @app-background-color;
   }
 }
